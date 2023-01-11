@@ -22,7 +22,7 @@ let
   hsPkgs = pkgs.haskell-nix.cabalProject {
     src = nix-filter {
       root = ./.;
-      name = "octopod";
+      name = "vendingmachine";
       include = [
         ./octopod-backend/octopod-backend.cabal
         ./octo-cli/octo-cli.cabal
